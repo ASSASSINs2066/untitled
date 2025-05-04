@@ -1,0 +1,16 @@
+# ninja log v6
+4	235	7679601644419969	F:/QTlingshi/untitled/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/CMakeFiles/cmake.verify_globs	8f15eb8955750be0
+240	1520	7679601658398157	untitled_autogen/timestamp	8d831ce2aaca2118
+240	1520	7679601658398157	untitled_autogen/mocs_compilation.cpp	8d831ce2aaca2118
+240	1520	7679601658398157	F:/QTlingshi/untitled/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/untitled_autogen/timestamp	8d831ce2aaca2118
+240	1520	7679601658398157	F:/QTlingshi/untitled/build/Desktop_Qt_6_9_0_MinGW_64_bit-Release/untitled_autogen/mocs_compilation.cpp	8d831ce2aaca2118
+1535	4019	7679601659730706	CMakeFiles/untitled.dir/main.cpp.obj	cbc01670e9d67e60
+1550	4050	7679601659866616	CMakeFiles/untitled.dir/dengluui.cpp.obj	cff2e79ae8bb8ebe
+1543	4093	7679601659781742	CMakeFiles/untitled.dir/mainwindow.cpp.obj	55749032e85683ed
+1527	4107	7679601659650176	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	ae49113bd8983f27
+1593	4189	7679601660315605	CMakeFiles/untitled.dir/user.cpp.obj	87e6ac5d58e763b4
+1566	4217	7679601660041234	CMakeFiles/untitled.dir/dialog.cpp.obj	8ae76a3e93b8c2c2
+1614	4278	7679601660522432	CMakeFiles/untitled.dir/makuser.cpp.obj	9ec70e9f4e9b1d1b
+1584	4530	7679601660210863	CMakeFiles/untitled.dir/goods.cpp.obj	e4d9d2de649456d9
+1624	4592	7679601660627179	CMakeFiles/untitled.dir/exuser.cpp.obj	4bc1a14c2d4d73a4
+4592	4854	7679601690300711	untitled.exe	c872b5682b94e67c
