@@ -42,4 +42,14 @@ void MainWindow::on_pushButton_3_clicked()
     makuser *dlg=new makuser(this);
     dlg->show();
 }
+void on_userchange(string x)
+{
+    for(auto i=users.begin();i!=users.end();i++)
+    {
+        if(x==(*i).first.first)
+        {
+            (*i).second=!(*i).second;
+        }
+    }
+}
 

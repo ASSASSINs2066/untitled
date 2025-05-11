@@ -52,7 +52,7 @@ public:
         pushButton->setGeometry(QRect(280, 50, 56, 18));
         pushButton_2 = new QPushButton(goods);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(370, 50, 56, 18));
+        pushButton_2->setGeometry(QRect(250, 320, 56, 18));
         lineEdit_2 = new QLineEdit(goods);
         lineEdit_2->setObjectName("lineEdit_2");
         lineEdit_2->setGeometry(QRect(110, 280, 113, 20));
@@ -73,7 +73,7 @@ public:
         label_4->setGeometry(QRect(70, 370, 40, 12));
         pushButton_3 = new QPushButton(goods);
         pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setGeometry(QRect(250, 350, 56, 20));
+        pushButton_3->setGeometry(QRect(250, 360, 56, 20));
         tableView = new QTableView(goods);
         tableView->setObjectName("tableView");
         tableView->setGeometry(QRect(40, 80, 471, 192));

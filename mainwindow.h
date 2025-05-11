@@ -20,7 +20,7 @@ namespace Ui {
 class MainWindow;
 }
 QT_END_NAMESPACE
-
+void on_userchange(std::string x);
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -28,6 +28,8 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+
 
 private slots:
     void on_pushButton_clicked();
