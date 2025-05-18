@@ -22,7 +22,8 @@ goods::goods(QWidget *parent)
 
 struct tree
 {
-    int money,cnt;
+    int cnt;
+    double money;
     string nam;
 };
 vector<tree>gb;
@@ -75,7 +76,7 @@ void goods::on_pushButton_2_clicked()
     {
         if(ui->lineEdit_2->text()==(*i).nam)
         {
-            if(ui->lineEdit_4->text().toInt()<=(*i).money)
+            if(ui->lineEdit_3->text().toInt()<=(*i).cnt)
             {
                 (*i).cnt-=ui->lineEdit_3->text().toInt();
                 QMessageBox::warning(this, tr("YES"),
@@ -88,6 +89,7 @@ void goods::on_pushButton_2_clicked()
                 QMessageBox::warning(this, tr("Waring"),
                                      tr("数量多于库存"),
                                      QMessageBox::Yes);
+                ppdd=1;
             }
         }
     }
@@ -97,6 +99,7 @@ void goods::on_pushButton_2_clicked()
                              tr("不存在此种商品"),
                              QMessageBox::Yes);
     }
+    return;
 }
 
 void goods::on_pushButton_3_clicked()
@@ -106,7 +109,7 @@ void goods::on_pushButton_3_clicked()
         bool cunzai=0;
         for(auto i=gb.begin();i!=gb.end();i++)
         {
-            if(ui->lineEdit_2->text()==(*i).nam&&ui->lineEdit_4->text().toInt()==(*i).money)
+            if(ui->lineEdit_2->text()==(*i).nam&&ui->lineEdit_4->text().toDouble()==(*i).money)
             {
                 (*i).cnt+=ui->lineEdit_3->text().toInt();
                 cunzai=1;
@@ -117,7 +120,7 @@ void goods::on_pushButton_3_clicked()
         {
             tree nw;
             nw.nam=ui->lineEdit_2->text().toStdString();
-            nw.money=ui->lineEdit_4->text().toInt();
+            nw.money=ui->lineEdit_4->text().toDouble();
             nw.cnt=ui->lineEdit_3->text().toInt();
             gb.push_back(nw);
         }
@@ -134,7 +137,7 @@ void goods::on_pushButton_3_clicked()
         ui->lineEdit_3->clear();
         ui->lineEdit_2->clear();
         ui->lineEdit_4->clear();
-    }
+    }return;
 }
 
 
